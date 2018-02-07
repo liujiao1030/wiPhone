@@ -1,0 +1,772 @@
+/*
+* @Author: VULCAN
+* @Date:   2018-02-05 13:36:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-07 10:24:02
+*/
+/* body{
+	height: 4444px;
+} */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width: 7.02rem;
+/* 	border: 0.01rem solid red; */
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 头部开始 */
+.header{
+	position: fixed;
+	width: 7.5rem;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 1rem;
+	background:url('../images/tou1.png') ;
+	background-repeat: 
+
+}
+
+.h-l{
+	width: 0.37rem;
+	height: 0.32rem;
+/* 	background-color: black; */
+	margin-top: 0.36rem;
+}
+.h-l li{
+	width: 0.37rem;
+	border-top: 0.04rem solid white;
+}
+.hl2{
+	margin:0.1rem auto;
+}
+.h-c{
+	width: 6.15rem;
+	height: 1rem;
+	background: url('../images/banner3_03.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 0.94rem 0.72rem;
+}
+.h-r{
+	width: 0.5rem;
+	height: 0.5rem;
+	background:url('../images/banner1.png');
+	background-size: 0.5rem 0.5rem;
+	margin-top: 0.26rem;
+}
+/* 动效 */
+
+/* 头部结束 */
+
+
+
+
+
+
+
+
+
+
+
+/* banner开始 */
+.banner{
+	margin-top: 1.12rem;
+	width: 7.5rem;
+	height: 4.33rem;
+	background:url('../images/banner.png');
+	background-size: 7.5rem;
+	height: 4.33rem;
+}
+.btu{
+	width: 1.06rem;
+	height: 0.43rem;
+	margin-top: 0.24rem;
+	margin-right: 0.05rem;
+	background-color: #0bc8cc;
+	padding-top: 0.12rem;
+	padding-right: 0.12rem;
+}
+.btu a{
+	float: right; 
+	font-size: 0.24rem;
+	font-family: 苹方;
+	color: white;
+}
+.btu img{
+	float: right;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-right: 0.12rem;
+}
+.ban-f{
+	float: left;
+	width: 100%;
+	height: 0.44rem;
+/* 	background-color: blue; */
+	margin-top: 2.9rem;
+}
+.ban-f div{
+	line-height: 0.1rem;
+	float: right;
+	margin-right: 0.12rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+}
+.ban-f .ban-dian1{
+	width: 0.14rem;
+	height: 0.14rem;
+	margin-top: 0.12rem;
+	margin-right: 0.4rem;
+	background-color: yellow;
+}
+.ban-f .ban-dian2{
+	margin-top: 0.14rem;
+}
+/* banner结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 热搜 */
+.hot{
+	width: 7.5rem;
+	height: 4.75rem;
+	background-color: #eeeeec;
+}
+.hot-t{
+	width: 100%;
+	height: 1.1rem;
+	background:url('../images/hot_03.png');
+	background-size: 7.5rem 1.1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hot-c{
+	height: 2.63rem;
+}
+.hot-c>div{
+	width: 2.17rem;
+	height: 2.88rem;
+	float: left;
+	background-color: #fff;
+	margin-left: 0.24rem;
+	border-radius: 0.05rem;
+}
+.hot-c .h-c-1{
+	margin-left: 0;
+}
+.hot-c>div img{
+	width: 2.17rem;
+}
+.hot-c>div p{
+	font-size: 0.18rem;
+	margin-left: 0.18rem;
+	margin-top: -0.12rem;
+}
+.hot-c>div i{
+	width: 0.26rem;
+	height: 0.26rem;
+	display: block;
+	background:url('../images/jiahao_03.png');
+	font-size: 0.18rem;
+	background-size: 0.26rem 0.26rem;
+	margin-right: 0.18rem;
+	margin-top: -0.10rem;
+}
+
+.hot-f{
+/* 	clear: both; */
+	width: 7.5rem;
+	height: 1.02rem;
+	background-color: #0fcbcd;
+}
+.hot-f-d{
+	width: 1.4rem;
+	height: 0.34rem;
+	/* background-color: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 3.3rem;
+}
+.hot .hot-f-d div{
+	line-height: 0.1rem;
+	float: left;
+	margin-left: 0.09rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+}
+.hot .hot-f-d .hot-dian2{
+	margin-top: 0.12rem
+}
+.hot .hot-f-d .hot-dian1{
+	margin-top: 0.1rem;
+	width: 0.14rem;
+	height: 0.14rem;
+	background-color: yellow;
+
+}
+/* 热搜结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 精选潮牌 */
+.title{
+	width: 7.5rem;
+	height: 2.6rem;
+	background-color: #eeeeec;
+}
+.title .title-top{
+	width: 7.5rem;
+	height: 1rem;
+	position: relative;
+}
+.title .title-top .title-top-01{
+	width: 2.40rem;
+	height: 0.52rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.22rem;
+}
+.title .title-top .title-top-02{
+	width:0.38rem;
+	height: 0.34rem;
+	position: absolute; 
+	top: 0.25rem;
+	right: 0.24rem;
+}
+.title .title-foot{
+	width: 7.5rem;
+	height: 1.6rem;
+
+}
+.title-foot .title-foot-01{
+	width: 7rem;
+	height: 1.3rem;
+	background: #f57d3e;
+	margin:0 auto; 
+	border-radius: 0.1rem; 
+}
+.title-foot .title-foot-01 div{
+	width: ;
+	height: 
+}
+.title-foot .title-foot-01 .tes{
+	padding-left: 0.3rem;
+}
+.title-foot .title-foot-01 div img{
+	margin-top: 0.21rem;
+	float: left;
+	padding-left: 0.38rem; 
+	width: 0.78rem;
+	height: 0.78rem;
+	/* border-radius:50%; */
+}
+/* 精选潮牌结束 */
+
+
+
+
+
+
+
+
+
+
+/* 精选内容 */
+.jinxuan{
+	width: 100%;
+	height: 4.1rem;
+	background-color: #fafafa;
+	padding-top: 0.3rem;
+}
+.jinxuan div{
+	width: 6.9rem;
+	height: 3.8rem;
+	/* background-color: blue; */
+}
+.jinxuan div img{
+	width: 2.3rem;
+	height: 1.9rem;
+	float: left;
+}
+/* 精选内容结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 所有内容开 */
+.work{
+	width: 7.5rem;
+	height: 22.15rem;	
+	background: #eeeeec;
+	padding-top: 0.2rem;
+	margin-bottom: 0.7rem;
+}
+.work-t{
+	height: 0.62rem;
+	background:url('../images/hong_03.png');
+	border-radius: 0.05rem;
+	background-size: 7.5rem 0.62rem;
+	text-align: center;
+}
+.work-t div{
+	border-radius: 50%;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: white;
+	margin-top: 0.24rem;
+/* 	text-align: center; */
+}
+.work-t .circle1{
+	margin-left: 0.24rem
+}
+.work-t .circle2{
+	margin-right: 0.24rem;
+}
+.work-t img{
+	margin-top: 0.14rem;
+	margin-left: 2.1rem;
+	width: 2.28rem;
+	height: 0.36rem;
+}
+
+
+
+
+
+
+
+
+.all-f-l{
+	float: left;
+	width: 3.39rem;
+	height: 20rem;
+/* 	background-color: pink; */
+	margin-top: 0.24rem;
+}
+.all-f-r{
+	float: left;
+	width: 3.39rem;
+	height: 20rem;
+/* 	background-color: pink; */
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.all-f-l-1{
+	width: 100%;
+	height: 6.5rem;
+	margin-bottom: 0.48rem;
+	border-radius: 0.06rem;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+
+}
+.all-f-l-1-top{
+	width: 100%;
+	height: 3.5rem;
+}
+.all-f-l-1-top img{
+	width: 100%;
+	height: 3.5rem;
+	border-radius: 0.06rem;
+}
+.all-f-l-1-cen{
+	width: 100%;
+	height: 2.3rem;
+	background-color: white;
+}
+.all-f-l-1-foot{
+	width: 100%;
+	height: 0.9rem;
+	background-color: white;
+	border-radius: 0.06rem;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+.allflcen-top{
+	width: 100%;
+	height: 0.5rem;
+}
+.allflcen-top a{
+	float: left;
+	font-size: 0.23rem;
+	color: #616161;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+}
+.allflcen-cen{
+	width: 100%;
+	height: 0.1rem;
+	background: url('../images/xuxian_03.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 3rem 0.1rem;
+}
+.allflcen-foot{
+	width: 100%;
+	height: 1.7rem;
+}
+.allflf-top{
+	width: 100%;
+	height: 0.4rem;
+}
+.allflf-cen{
+	width: 100%;
+	height: 0.9rem;
+}
+.allflf-foot{
+	width: 100%;
+	height: 0.4rem;
+}
+.allflf-top img{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.2rem;
+	margin-top: 0.05rem;
+}
+.allflf-top a{
+	float: left;
+	font-size: 0.2rem;
+	color: #919191;
+	margin-top: 0.06rem;
+	margin-right: 0.3rem;
+}
+.allflf-cen a{
+	float: left;
+	font-size: 0.2rem;
+	color: #919191;
+	margin-top: 0.03rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+}
+.allflf-foot img{
+	float: left;
+	width: 1.5rem;
+	height: 0.3rem;
+	margin-left: 0.1rem;
+	margin-top: 0.05rem;
+}
+.all-f-l-1-foot img{
+	float: left;
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.12rem;
+	margin-left: 0.2rem;
+}
+.allflfr-top a{
+	float: left;
+	color: #434343;
+	font-size: 0.2rem;
+	font-weight: 600;
+	margin-top: 0.18rem;
+	margin-left: 0.15rem;
+}
+.allflfr-foot a{
+	float: left;
+	color: #919191;
+	font-size: 0.2rem;
+	font-weight: 600;
+	margin-left: 0.15rem;
+}
+
+.w-f-r-1 img{
+	width: 100%;
+	height: 2.51rem;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+.w-f-r{
+	float: right;
+	width: 3.39rem;
+	height: 21rem;
+/* 	background-color: pink; */
+	margin-top: 0.24rem;
+}
+.w-f-r-1{
+	height: 3.92rem;
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 0.24rem;
+	border-radius: 0.05rem;
+}
+.w-f-r-1 a{
+	float: left;
+	color: #919191;
+	font-size: 0.2rem;
+	font-weight: 600;
+	margin-left: 0.15rem;
+	margin-top: -0.15rem;
+}
+.wfl1{
+	width: 100%;
+	height: 0.9rem;
+	background: #fafcfc;
+	margin-top: 0.27rem;
+	border-radius: 0.05rem;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+.wfl1  img{
+	float: left;
+	width: 0.63rem;
+	height: 0.63rem;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	margin-left: 0.2rem;
+	margin-top: 0.15rem;
+}
+.wfl1 ul{
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+}
+.wfl1 .shang{
+	font-size: 0.2rem;
+	font-family: 苹方;
+	color: #3e3c3c;
+}
+.wfl1 .xia{
+	font-size: 0.18rem;
+	font-family: 苹方;
+	color: #3e3c3c;
+}
+
+
+
+.w-f-r-2{
+	height: 6.78rem;
+	width: 100%;
+/* 	background-color: red */;
+	margin-bottom: 0.24rem;
+	border-radius: 0.05rem;
+}
+.w-f-r-3{
+	height: 9.5rem;
+	width: 100%;
+/* 	background-color: red; */
+	/* margin-bottom: 0.24rem; */
+	border-radius: 0.05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.w-f-r-3 .all-f-l-7-top{
+	width: 100%;
+	height: 6.4rem;
+}
+.w-f-r-3 .all-f-l-7-top img{
+	width: 100%;
+	height: 6.4rem;
+	border-radius: 0.06rem;
+}
+.w-f-r-3 .all-f-l-1-cen{
+	width: 100%;
+	height: 2.3rem;
+	background-color: white;
+}
+.w-f-r-3 .all-f-l-1-foot{
+	width: 100%;
+	height: 0.9rem;
+	background-color: white;
+	border-radius: 0.06rem;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+	margin-top: -0.12rem;
+}
+.w-f-r-3 .allflcen-top{
+	width: 100%;
+	height: 0.5rem;
+}
+.w-f-r-3 .allflcen-top a{
+	float: left;
+	font-size: 0.23rem;
+	color: #616161;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+}
+.w-f-r-3 .allflcen-cen{
+	width: 100%;
+	height: 0.1rem;
+	background: url('../images/xuxian_03.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 3rem 0.1rem;
+}
+.w-f-r-3 .allflcen-foot{
+	width: 100%;
+	height: 1.7rem;
+}
+.w-f-r-3 .allflf-top{
+	width: 100%;
+	height: 0.4rem;
+}
+.w-f-r-3 .allflf-cen{
+	width: 100%;
+	height: 0.9rem;
+}
+.w-f-r-3 .allflf-foot{
+	width: 100%;
+	height: 0.4rem;
+}
+.w-f-r-3 .allflf-top img{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.2rem;
+	margin-top: 0.05rem;
+}
+.w-f-r-3 .allflf-top a{
+	float: left;
+	font-size: 0.2rem;
+	color: #919191;
+	margin-top: 0.06rem;
+	margin-right: 0.3rem;
+}
+.w-f-r-3 .allflf-cen a{
+	float: left;
+	font-size: 0.2rem;
+	color: #919191;
+	margin-top: 0.03rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+}
+.w-f-r-3 .allflf-foot img{
+	float: left;
+	width: 1.5rem;
+	height: 0.3rem;
+	margin-left: 0.1rem;
+	margin-top: -0.08rem;
+}
+.w-f-r-3 .all-f-l-1-foot img{
+	float: left;
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.12rem;
+	margin-left: 0.2rem;
+}
+.w-f-r-3 .allflfr-top a{
+	float: left;
+	color: #434343;
+	font-size: 0.2rem;
+	font-weight: 600;
+	margin-top: 0.12rem;
+	margin-left: 0.15rem;
+}
+.w-f-r-3 .allflfr-foot a{
+	float: left;
+	color: #919191;
+	font-size: 0.2rem;
+	font-weight: 600;
+	margin-left: 0.15rem;
+}
+
+
+
+
+
+/* 底部 */
+.foot{
+	width: 7.5rem;
+	height: 1.06rem;
+	background: #323141;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.foot li{
+	margin-top: -0.1rem;
+	width: 25%;
+	float: left;	
+	height: 1.06rem;
+	background-position: center;
+	background-size: 2.5rem 1.2rem;
+	text-align: center;
+
+}
+.iconfont{
+	font-size: 0.6rem;
+	color: white;
+	padding-top: 0.2rem;
+	
+}
+
